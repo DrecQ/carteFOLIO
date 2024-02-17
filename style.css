@@ -1,0 +1,122 @@
+
+body 
+{
+    background-image: 
+    linear-gradient(
+        to top right, #672cf0, #EC4899
+    );
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.slider 
+{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.item 
+{
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    text-align: justify;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(50% - 110px);
+    top: 0;
+}
+
+h1 
+{
+    color: rgb(225, 164, 8);
+}
+
+
+.slide1 
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(img/passion3.jpg);
+    background-size: cover;
+}
+
+
+.slide2
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(img/passion2.jpg);
+    background-size: cover;
+}
+
+.slide3
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(img/tech.jpg);
+    background-size: cover;
+}
+
+
+.slide4
+{
+    color: #fff;
+    font-weight: bold;
+    background-image: url(img/home.jpg);
+    background-size: cover;
+}
+
+
+.slide5
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(img/name.jpg);
+    background-size: cover;
+}
+
+
+.slide6
+{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(img/Evariste.jpg);
+    background-size: cover;
+    z-index: -999;
+}
+
+.slide7
+{
+    color: #FFF;
+    font-weight: bold;
+    background-image: url(img/Credo.jpg);
+    background-size: cover;
+}
+
+#next, #prev 
+{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    left: 30px;
+}
+
+#next 
+{
+    left: unset;
+    right: 20px;
+}
