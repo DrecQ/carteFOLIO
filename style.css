@@ -3,7 +3,7 @@ body
 {
     background-image: 
     linear-gradient(
-        to top right, #672cf0, #EC4899
+        to top right, #593802, #423c34
     );
     min-height: 100vh;
     margin: 0;
@@ -112,7 +112,7 @@ h1
     font-size: 50px;
     font-family: monospace;
     font-weight: bold;
-    left: 30px;
+    left: 25px;
 }
 
 #next 
